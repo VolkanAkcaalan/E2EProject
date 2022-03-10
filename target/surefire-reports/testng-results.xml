@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="94460" started-at="2022-03-10T20:08:37Z" finished-at="2022-03-10T20:10:12Z">
+    <groups>
+    </groups>
+    <test name="C:/Users/akcaa/E2EProject" duration-ms="94460" started-at="2022-03-10T20:08:37Z" finished-at="2022-03-10T20:10:12Z">
+      <class name="Test.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Test.validateNavigationBar@3a03464]" name="initialize" is-config="true" duration-ms="20319" started-at="2022-03-10T15:08:37Z" finished-at="2022-03-10T15:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Test.validateNavigationBar@3a03464]" name="basePageNavigation" duration-ms="124" started-at="2022-03-10T15:09:44Z" finished-at="2022-03-10T15:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Test.validateNavigationBar -->
+      <class name="Test.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.HomePage@4909b8da]" name="basePageNavigation" duration-ms="22251" started-at="2022-03-10T15:08:57Z" data-provider="getData" finished-at="2022-03-10T15:09:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.HomePage@4909b8da]" name="basePageNavigation" duration-ms="24272" started-at="2022-03-10T15:09:20Z" data-provider="getData" finished-at="2022-03-10T15:09:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test.HomePage@4909b8da]" name="teardown" is-config="true" duration-ms="96" started-at="2022-03-10T15:10:11Z" finished-at="2022-03-10T15:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test.validateNavigationBar@3a03464]" name="teardown" is-config="true" duration-ms="95" started-at="2022-03-10T15:10:11Z" finished-at="2022-03-10T15:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test.validateTitle@2ef9b8bc]" name="teardown" is-config="true" duration-ms="115" started-at="2022-03-10T15:10:11Z" finished-at="2022-03-10T15:10:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.HomePage -->
+      <class name="Test.validateTitle">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Test.validateTitle@2ef9b8bc]" name="basePageNavigation" duration-ms="27182" started-at="2022-03-10T15:09:44Z" finished-at="2022-03-10T15:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Test.validateTitle -->
+    </test> <!-- C:/Users/akcaa/E2EProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
