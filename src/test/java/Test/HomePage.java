@@ -29,7 +29,7 @@ public class HomePage extends base {
         Ip.getPassword().sendKeys(Password);
         System.out.println(text);
         Ip.getLogin().click();
-
+        
 
     }
     @AfterTest
